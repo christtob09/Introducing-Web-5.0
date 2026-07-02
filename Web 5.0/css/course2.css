@@ -1,0 +1,155 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.course-overview {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.course-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.course-description {
+  font-size: 16px;
+  color: #555555;
+  margin-bottom: 10px;
+}
+
+.tags {
+  margin-top: 10px;
+}
+
+.tag {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin-right: 10px;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.tag.html {
+  background-color: #e34c26;
+}
+
+.tag.css {
+  background-color: #264de4;
+}
+
+.tag.js {
+  background-color: #f0db4f;
+  color: #323330;
+}
+
+.tag.blockchain {
+  background-color: #3c3c3d;
+}
+
+.lesson-header {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.lesson-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.lesson-card {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.lesson-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.lesson-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.lesson-description {
+  font-size: 14px;
+  color: #555555;
+  margin-bottom: 10px;
+}
+
+.button-detail {
+  display: inline-flex;
+  align-items: center;
+  background-color: #4a90e2;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.button-detail:hover {
+  background-color: #357abd;
+}
+
+.button-detail i {
+  margin-left: 8px;
+}
+
+.button-detail.locked {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+.button-detail.locked:hover {
+  background-color: #bdc3c7;
+}
+
+.button-detail.locked i {
+  margin-left: 8px;
+}
+
+.button-back {
+  display: inline-flex;
+  align-items: center;
+  background-color: #e74c3c;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.button-back:hover {
+  background-color: #c0392b;
+}
+
+.button-back i {
+  margin-left: 8px;
+}

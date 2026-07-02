@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 1: Introduction to HTML</title>
+    <link rel="stylesheet" href="css/course2.css">
+    <link rel="icon" href="assets/icon.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="css/lesson1.css">
+</head>
+
+<body>
+    <div class="container">
+        <ul class="lesson-content"></ul>
+        <li><a href="#section1">1. What is HTML?</a></li>
+        <li><a href="#section2">2. Basic Structure of HTML</a></li>
+        <li><a href="#section3">3. HTML Elements and Tags</a></li>
+        <li><a href="#section4">4. HTML Attributes</a></li>
+        <li><a href="#section5">5. Creating Paragraphs and Headings</a></li>
+        <li><a href="#section6">6. Adding Images and Links</a></li>
+        </ul>
+        <div class="lesson-overview" od>
+            <h1 class="lesson-title">Lesson 1: Introduction to HTML</h1>
+            <p class="lesson-description">
+                In this lesson, you will learn the basics of HTML (Hypertext Markup Language), the markup language used
+                to create the basic structure of web pages. HTML allows you to define elements such as headings,
+                paragraphs, images, and links. This lesson will cover basic tags, attributes, and how to correctly
+                structure HTML elements.
+            </p>
+        </div>
+
+        <h2 class="lesson-subtitle">Table of Contents</h2>
+
+        <h2 class="lesson-subtitle" id="section1">1. What is HTML?</h2>
+        <p>HTML stands for HyperText Markup Language, a markup language used to create web pages. HTML works by marking
+            up plain text using special elements called tags to form the structure of a web page.</p>
+
+        <h2 class="lesson-subtitle" id="section2">2. Basic Structure of HTML</h2>
+        <p>The HTML structure always starts with a declaration followed by the &lt;html&gt;, &lt;head&gt;, and
+            &lt;body&gt; elements. Here is an example of a basic HTML structure:</p>
+
+        <div class="code-block">
+            <pre>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Web Page</title>
+</head>
+<body>
+    <h1>Welcome to My First Web Page</h1>
+    <p>This is my first paragraph.</p>
+</body>
+</html>
+            </pre>
+        </div>
+
+        <h2 class="lesson-subtitle" id="section3">3. HTML Elements and Tags</h2>
+        <p>HTML elements are important parts of an HTML document. These elements start with an opening tag and end with
+            a closing tag. Example:</p>
+
+        <div class="code-block">
+            <pre>
+<p>This is a paragraph element.</p>
+<h1>This is a heading element.</h1>
+            </pre>
+        </div>
+
+        <h2 class="lesson-subtitle" id="section4">4. HTML Attributes</h2>
+        <p>HTML attributes are used to provide additional information about elements. For example, the style attribute
+            is used to apply styles to text:</p>
+
+        <div class="code-block">
+            <pre>
+<p style="color: blue;">This is a blue paragraph.</p>
+            </pre>
+        </div>
+
+        <h2 class="lesson-subtitle" id="section5">5. Creating Paragraphs and Headings</h2>
+        <p>You can use the &lt;p&gt; element for paragraphs and &lt;h1&gt; to &lt;h6&gt; to create headings of different
+            sizes. Example:</p>
+
+        <div class="code-block">
+            <pre>
+<h1>Main Title (h1)</h1>
+<h2>Subsection Title (h2)</h2>
+<p>This is an example paragraph.</p>
+            </pre>
+        </div>
+
+        <h2 class="lesson-subtitle" id="section6">6. Adding Images and Links</h2>
+        <p>To add an image, use the &lt;img&gt; element with the src and alt attributes. For links, use the &lt;a&gt;
+            element. Example:</p>
+
+        <div class="code-block">
+            <pre>
+<img src="assets/icon.jpeg" alt="Example Image" width="200" />
+<p>Click <a href="https://www.example.com">here</a> to open another web page.</p>
+            </pre>
+        </div>
+
+        <div class="quiz-container">
+            <h2 class="quiz-title">Quiz: Introduction to HTML</h2>
+            <form id="quizForm">
+                <div class="question">
+                    <p>1. What does HTML stand for?</p>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q1" value="1"> HyperText Markup Language</label>
+                        <label class="option"><input type="radio" name="q1" value="0"> Hyperlink and Text Markup
+                            Language</label>
+                        <label class="option"><input type="radio" name="q1" value="0"> Hypertextual Markup
+                            Language</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>2. HTML elements start with:</p>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q2" value="1"> Opening tag</label>
+                        <label class="option"><input type="radio" name="q2" value="0"> Closing tag</label>
+                        <label class="option"><input type="radio" name="q2" value="0"> Format tag</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>3. What is used to add an image?</p>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q3" value="1"> &lt;img&gt;</label>
+                        <label class="option"><input type="radio" name="q3" value="0"> &lt;picture&gt;</label>
+                        <label class="option"><input type="radio" name="q3" value="0"> &lt;photo&gt;</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>4. The tag used to create a paragraph is:</p>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q4" value="1"> &lt;p&gt;</label>
+                        <label class="option"><input type="radio" name="q4" value="0"> &lt;para&gt;</label>
+                        <label class="option"><input type="radio" name="q4" value="0"> &lt;text&gt;</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>5. What is an attribute in HTML?</p>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q5" value="1"> Additional information about an
+                            element</label>
+                        <label class="option"><input type="radio" name="q5" value="0"> A repeated element</label>
+                        <label class="option"><input type="radio" name="q5" value="0"> A part of an HTML
+                            document</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>6. The element used to add a link is:</p>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q6" value="1"> &lt;a&gt;</label>
+                        <label class="option"><input type="radio" name="q6" value="0"> &lt;link&gt;</label>
+                        <label class="option"><input type="radio" name="q6" value="0"> &lt;url&gt;</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>7. A closing tag is indicated by:</p>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q7" value="1"> A slash (/)</label>
+                        <label class="option"><input type="radio" name="q7" value="0"> A question mark (?)</label>
+                        <label class="option"><input type="radio" name="q7" value="0"> A period (.)</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>8. The attribute that applies style to an element is:</p>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q8" value="1"> style</label>
+                        <label class="option"><input type="radio" name="q8" value="0"> class</label>
+                        <label class="option"><input type="radio" name="q8" value="0"> id</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>9. What is the purpose of the DOCTYPE declaration?</p>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q9" value="1"> To specify the version of HTML
+                            used</label>
+                        <label class="option"><input type="radio" name="q9" value="0"> To specify the background
+                            color</label>
+                        <label class="option"><input type="radio" name="q9" value="0"> To specify the font type</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <p>10. Which tag is used for the main title?</p>
+                    <div class="options">
+                        <label class="option"><input type="radio" name="q10" value="1"> &lt;h1&gt;</label>
+                        <label class="option"><input type="radio" name="q10" value="0"> &lt;title&gt;</label>
+                        <label class="option"><input type="radio" name="q10" value="0"> &lt;header&gt;</label>
+                    </div>
+                </div>
+
+                <button type="button" class="submit-btn" onclick="submitQuiz()">Submit Quiz</button>
+            </form>
+        </div>
+        <a href="course.html" class="back-btn">
+            <span>Back</span>
+            <i class="fas fa-arrow-left"></i>
+        </a>
+        </a>
+    </div>
+
+    <script src="js/lesson1.js"></script>
+</body>
+
+</html>
